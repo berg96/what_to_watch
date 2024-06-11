@@ -1,6 +1,3 @@
-# Импортируем метод jsonify:
-from random import randrange
-
 from flask import jsonify, request
 
 from . import app, db

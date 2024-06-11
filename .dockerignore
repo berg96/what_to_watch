@@ -1,0 +1,9 @@
+.env
+venv
+instance
+.github
+.gitignore
+old_opinions_app.py
+.git
+.idea
+__pycache__
