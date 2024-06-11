@@ -9,3 +9,4 @@ wtforms==3.1.2
 click==8.1.7
 Flask-Migrate==4.0.7
 psycopg2==2.9.9
+gunicorn==22.0.0

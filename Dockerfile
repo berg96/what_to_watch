@@ -3,4 +3,4 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt --no-cache-dir
 COPY . .
-CMD ["flask", "run"]
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "opinions_app:app"]

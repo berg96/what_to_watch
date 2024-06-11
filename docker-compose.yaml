@@ -22,13 +22,3 @@ services:
       - static://opinions_app/static
     depends_on:
       - db
-
-  nginx:
-    image: nginx:1.19.3
-    ports:
-      - "8080:80"
-    volumes:
-      - ./nginx.conf://etc/nginx/conf.d/default.conf
-      - static://static
-    depends_on:
-      - app
